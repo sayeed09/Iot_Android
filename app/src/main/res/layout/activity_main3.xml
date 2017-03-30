@@ -13,11 +13,6 @@
             android:layout_height="wrap_content"
             android:id="@+id/listView"/>
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="getBluetoothActivity"
-        android:layout_below="@id/listView"
-        android:text="CLick please"/>
+
 
 </RelativeLayout>
