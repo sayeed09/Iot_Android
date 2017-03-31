@@ -49,6 +49,7 @@ android:transitionGroup="true">
         android:onClick="next"
         android:text="List of nearby devices"
         android:layout_below="@id/button4"
+        android:id="@+id/button2"
         />
 
 
@@ -60,5 +61,19 @@ android:transitionGroup="true">
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:shadowColor="@android:color/holo_green_dark"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:text="S"
+        android:id="@id/button5"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="aaa"
+        android:id="@+id/txtR"
+        android:layout_below="@+id/button5"/>
+
+
 
 </RelativeLayout>
