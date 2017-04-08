@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <item name="button5" type="id">button5</item>
+    <item name="button6" type="id">button5</item>
 </resources>
