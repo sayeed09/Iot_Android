@@ -3,23 +3,26 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/action_settings"
+        android:icon="@drawable/ic_menu_manage"
         android:orderInCategory="100"
         android:title="@string/action_settings"
-        android:icon="@drawable/ic_menu_manage"
-        app:showAsAction="always"/>
+        app:showAsAction="always" />
 
 
-        <item android:id="@+id/c"
+    <item
+            android:id="@+id/c"
             android:title="Turn Off Bluetooth" />
-        <item android:id="@+id/o"
+
+    <item
+            android:id="@+id/o"
             android:title="Turn On Bluetooth" />
 
-        <item android:id="@+id/e"
-        android:title="Exit" />
+    <item
+            android:id="@+id/e"
+            android:title="Exit" />
 
 
 
 
 
-        />
 </menu>
